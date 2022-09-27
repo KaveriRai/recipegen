@@ -1,0 +1,127 @@
+.image {
+    position: absolute;
+    width: 687px;
+    height: 836px;
+    left: 0px;
+    top: -24px;
+}
+
+.p2 {
+    background-color: tan;
+}
+
+.buttons {
+    position: absolute;
+    width: 548px;
+    height: 485px;
+    left: 687px;
+    top: 0px;
+    padding-top: 320px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.prompt {
+    position: absolute;
+    width: 548px;
+    height: 100px;
+    left: 687px;
+    top: 150px;
+    padding-top: 50px;
+    padding-left: 120px;
+    color: seagreen;
+    font-family:'Optima',sans-serif;
+    font-size: 75px;
+    font-weight:300;
+}
+
+button {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 25px;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color: tan;
+    text-align:center;
+    color: seagreen;
+    transition: all 0.2s;
+    border: 2px solid seagreen;
+}
+
+button:hover{
+    background-color:seagreen;
+    color: tan;
+}
+
+@media all and (max-width:30em){
+    button{
+        display:block;
+        margin:0.2em auto;
+    }
+}
+.p1 {
+    background-color: black;
+}
+
+.p1img{
+    position: absolute;
+    width: 687px;
+    height: 836px;
+    left: 250px;
+    top: -24px;
+    opacity: 0.88;
+}
+
+.p1buttons {
+    position: absolute;
+    width: 548px;
+    height: 485px;
+    left: 700px;
+    top: 0px;
+    padding-top: 320px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+p1butt {
+    display:inline-block;
+    padding:14px 40px;;
+    margin:0 0.3em 0.3em 0;
+    margin-top: 240px;
+    border-radius:2px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color: gainsboro;
+    text-align:center;
+    color: black;
+    transition: all 0.2s;
+    border: 2px solid black;  
+}
+
+p1butt:hover{
+    background-color: gray;
+    color: gainsboro;
+}
+
+.p1hello{
+    position: absolute;
+    width: 548px;
+    height: 100px;
+    left: 680px;
+    top: 320px;
+    padding-top: 50px;
+    padding-left: 120px;
+    color: gray;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-size: 150px;
+    font-weight:300; 
+}

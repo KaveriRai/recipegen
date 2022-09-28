@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Carme&family=Lora&family=Poppins&family=Space+Mono&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
     <title>Preference Selection</title>
     <head>
         Select your dietary preference(s)
     </head>
-    <body class="p2">
-        <img class="image" src="img1.jpg" alt="Bowls of Soup">
-        <div class="prompt">I am...</div>
-        <div class="buttons">
-            <button>vegan</button>
-            <button>vegetarian</button>
-            <button>nut free</button>
-            <button>dairy free</button>
-            <button>white meat</button>
-            <button>seafood only</button>
-            <button>halal</button>
-            <button>kosher</button>
-            <button>sugar free</button>
-            <button>gluten free</button>
+    <body id="p2">
+        <img class="image" src="images/img1.jpg" alt="Bowls of Soup">
+        <div class="prompt">I want...</div>
+        <div id="buttons">
+            <button id="btn">vegan</button>
+            <button id="btn">vegetarian</button>
+            <button id="btn">nut free</button>
+            <button id="btn">dairy free</button>
+            <button id="btn">white meat</button>
+            <button id="btn">seafood only</button>
+            <button id="btn">ketogenic</button>
+            <button id="btn">lowFodmap</button>
+            <button id="btn">sugar free</button>
+            <button id="btn">gluten free</button>
+            <div id="goBtn" class="go">
+                <a href="page3.html"><button>Next ></button></a>
+            </div>
         </div>
+        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>

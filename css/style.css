@@ -2,7 +2,7 @@
 .p1hello{
     font-family:'Lora', serif !important;
 }
-.page4{
+#p4{
     background-color: #7F8AB1;
     font-family:'Lora', serif;
 }
@@ -23,11 +23,12 @@ input[type=text], button {
   }
   
 .responses{
-	margin-top: 6%;
+	margin-top: 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     text-align: center;
+    margin-left: 1%;
 }
 
 #img1{
@@ -45,6 +46,26 @@ input[type=text], button {
 #img3{
     grid-column: 3/4;
     grid-row: 1/2;
+    border: #ECD3A9 solid 22px;
+    background-color: #ECD3A9;
+}
+#img4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: #ECD3A9 solid 22px;
+    background-color: #ECD3A9;
+}
+
+#img5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: #ECD3A9 solid 22px;
+    background-color: #ECD3A9;
+}
+
+#img6{
+    grid-column: 3/4;
+    grid-row: 2/3;
     border: #ECD3A9 solid 22px;
     background-color: #ECD3A9;
 }
@@ -67,7 +88,7 @@ a:hover{
     text-decoration: underline;
 }
 
-/* p1 */
+/* p2 css */
 .image {
     position: absolute;
     width: 687px;
@@ -76,11 +97,12 @@ a:hover{
     top: -24px;
 }
 
-.p2 {
+#p2 {
     background-color: tan;
+    /* display: none; */
 }
 
-.buttons {
+#buttons {
     position: absolute;
     width: 548px;
     height: 485px;
@@ -116,7 +138,7 @@ button {
     font-size: 25px;
     font-weight:300;
     color:#FFFFFF;
-    background-color: tan;
+    background-color:tan;
     text-align:center;
     color: seagreen;
     transition: all 0.2s;
@@ -124,8 +146,17 @@ button {
 }
 
 button:hover{
-    background-color:seagreen;
+    background-color: seagreen;
     color: tan;
+}
+
+.go {
+    position: absolute;
+    height: 100px;
+    left: 150px;
+    top: 550px;
+    padding-top: 150px;
+    padding-left: 120px;
 }
 
 @media all and (max-width:30em){
@@ -134,7 +165,10 @@ button:hover{
         margin:0.2em auto;
     }
 }
-.p1 {
+/*end of p2*/
+
+/*p1*/
+#p1 {
     background-color: black;
 }
 
@@ -158,7 +192,7 @@ button:hover{
     padding-right: 100px;
 }
 
-p1butt {
+#p1butt {
     display:inline-block;
     padding:14px 40px;;
     margin:0 0.3em 0.3em 0;
@@ -177,9 +211,10 @@ p1butt {
     border: 2px solid black;  
 }
 
-p1butt:hover{
+#p1butt:hover{
     background-color: gray;
     color: gainsboro;
+    font-family:'Lora', serif !important;
 }
 
 .p1hello{
@@ -195,4 +230,3 @@ p1butt:hover{
     font-size: 150px;
     font-weight:300; 
 }
-
